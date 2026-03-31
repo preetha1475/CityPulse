@@ -1275,7 +1275,7 @@ elif page == "Public Sentiment Analysis":
     # ---------------------------------------------
     # Load Survey Dataset
     # ---------------------------------------------
-    SURVEY_PATH = r"C:\metro_traffic_project\data\Metro impact responses.xlsx"
+    SURVEY_PATH = r"data\Metro impact responses.xlsx"
 
     @st.cache_data
     def load_survey():
@@ -1562,7 +1562,7 @@ elif page == "Metro Safety Intelligence":
     # LOAD ACCIDENT DATASET
     # =========================================
 
-    ACCIDENT_PATH = r"C:\metro_traffic_project\data\RTA Dataset.csv"
+    ACCIDENT_PATH = r"\metro_traffic_project\data\RTA Dataset.csv"
 
     @st.cache_data
     def load_accident_data():
