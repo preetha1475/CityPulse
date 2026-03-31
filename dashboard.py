@@ -46,7 +46,7 @@ st.set_page_config(
     layout="wide"
 )
 
-DATA_PATH = r"C:\metro_traffic_project\data\traffic-prediction-dataset.csv"
+DATA_PATH = r"data/traffic-prediction-dataset.csv"
 
 # ==================================================
 # LOAD DATA
