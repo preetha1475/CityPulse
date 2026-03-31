@@ -1561,7 +1561,7 @@ elif page == "Metro Safety Intelligence":
     # LOAD ACCIDENT DATASET
     # =========================================
 
-    ACCIDENT_PATH = r"data\RTA Dataset.csv"
+    ACCIDENT_PATH = "data/RTA Dataset.csv"
 
     @st.cache_data
     def load_accident_data():
