@@ -275,7 +275,7 @@ elif page == "Area-wise Traffic Prediction (Live + Forecast)":
     # ==================================================
     st.subheader("🔮 Traffic Forecast – Next 5 Days")
 
-    future_times = pd.date_range(start=now, periods=5*24, freq="1H")
+    future_times = pd.date_range(start=now, periods=5*24, freq="1h")
 
     future_preds = [
         max(
